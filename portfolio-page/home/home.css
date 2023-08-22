@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home-page{
+
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    background-color:slategray;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+    border: 2px solid lightgray;
+    box-shadow: 5rem;
+}
+.left img{
+    height: 80px;
+    width: 80px;
+}
+.left{
+    width: 34%;
+    
+}
+.middle{
+    width: 33%;
+}
+.right{
+    width: 33%;
+    display: flex;
+    justify-content: space-around;
+}
+.right a{
+    text-decoration: none; 
+    color: black; 
+}
+
+a:hover{
+    color: red;
+}
