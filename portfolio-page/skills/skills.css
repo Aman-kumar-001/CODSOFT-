@@ -43,4 +43,31 @@ body{
 
 a:hover{
     color: red;
+}h1{
+    text-align: center;
+    justify-content: center;
+    margin: 50px auto;
+    font-size: 60px;
+}
+th,li{
+    color: black;
+    border-radius: 10%;   
+}
+h3{
+    font-size: 25px;
+}
+table{
+    margin: 10px 10px;
+    width: 80%;
+    margin: auto;
+    height: 150px;
+   
+}
+li{
+    border: 2px solid blue;  
+}
+li:hover{
+    text-transform: capitalize;
+    font-size: 30px;
+    border-color: red;
 }
