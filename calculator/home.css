@@ -54,3 +54,6 @@ form .display input{
 form input.submit{
     width: 145px;
 }
+.operator{
+    color: lightskyblue;
+}
