@@ -3,17 +3,30 @@
     padding: 0%;
     margin: 0%;
 }
+h2{
+font-size: 30px;
+padding-right: 30px;
+}
+h2:hover{
+    color: red;
+}
 .container{
     height: 100vh;
     width: 100%;
     align-items: center;
     justify-content: center;
     display: flex;
+    background: lightskyblue;
 }
 .calculator{
     background: grey;
+    
     padding: 20px;
     border-radius: 10px;
+}
+.calculator:hover{
+    
+    border: 1px solid black;
 }
 .calculator form input{
     width: 60px;
